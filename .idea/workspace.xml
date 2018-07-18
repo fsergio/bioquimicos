@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="724ee4ab-e97f-4100-a5a3-a0c93e2efa9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/www/img/caduceus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/item_inicial.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/item_inicial.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib/bioquimicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib/bioquimicos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/img/logo_grande.gif" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +11,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -39,18 +49,25 @@
       <file leaf-file-name="ci_abm_especialidades.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+            <state relative-caret-position="399">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_inicial.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/item_inicial.php">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57a07753-82c7-4470-bbb0-40baca3b4c4c/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <state>
+              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="57a07753-82c7-4470-bbb0-40baca3b4c4c.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/dataSources/57a07753-82c7-4470-bbb0-40baca3b4c4c.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-321" />
           </provider>
         </entry>
       </file>
@@ -74,6 +91,7 @@
         <option value="$PROJECT_DIR$/php/lib/bioquimicos.php" />
         <option value="$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php" />
         <option value="$PROJECT_DIR$/php/item_inicial.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57a07753-82c7-4470-bbb0-40baca3b4c4c/console.sql" />
       </list>
     </option>
   </component>
@@ -126,23 +144,6 @@
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="operaciones" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="bioquimicos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bioquimicos" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bioquimicos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bioquimicos" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bioquimicos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bioquimicos" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="www" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -152,6 +153,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -185,12 +187,12 @@
       <updated>1531709507813</updated>
       <workItem from="1531709509643" duration="241000" />
       <workItem from="1531785606815" duration="9204000" />
-      <workItem from="1531874989535" duration="5600000" />
+      <workItem from="1531874989535" duration="6868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17104000" />
+    <option name="totallyTimeSpent" value="18372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="951" extended-state="6" />
@@ -202,9 +204,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923833" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.122068234" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32923833" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.122068234" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.18017058" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923833" />
       <window_info id="Structure" order="1" sideWeight="0.5012285" side_tool="true" weight="0.122068234" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -219,6 +222,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -290,13 +319,6 @@
     <entry file="file://$PROJECT_DIR$/www/img/logo_grande.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/img/logo.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -309,8 +331,30 @@
     <entry file="file://$PROJECT_DIR$/php/item_inicial.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="2" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57a07753-82c7-4470-bbb0-40baca3b4c4c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/57a07753-82c7-4470-bbb0-40baca3b4c4c.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-321" />
       </provider>
     </entry>
   </component>
