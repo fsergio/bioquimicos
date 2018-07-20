@@ -79,8 +79,10 @@ class ci_abm_diagnosticos extends bioquimicos_ci {
 	{
 	}
 
-	function evt__formulario__modificacion($datos)
-	{
+	function evt__formulario__modificacion($datos) {
+        $this->dep('datos')->set($datos);
+        $this->dep('datos')->sincronizar();
+        $this->dep('datos')->resetear();
 	}
 
 	function evt__formulario__cancelar() {

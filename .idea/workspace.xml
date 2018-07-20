@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="724ee4ab-e97f-4100-a5a3-a0c93e2efa9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/img/logo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/lib/bioquimicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib/bioquimicos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/operaciones/ABM_diagnosticos/ci_abm_diagnosticos.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/operaciones/ABM_diagnosticos/ci_abm_diagnosticos.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,26 +48,8 @@
       <file leaf-file-name="ci_abm_diagnosticos.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_diagnosticos/ci_abm_diagnosticos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ci_abm_especialidades.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bioquimicos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/lib/bioquimicos.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+            <state relative-caret-position="550">
+              <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -82,8 +57,17 @@
       <file leaf-file-name="ci_abm_obras_sociales.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="70" lean-forward="true" selection-end-line="93" />
+            <state relative-caret-position="370">
+              <caret line="77" column="38" lean-forward="true" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ci_abm_especialidades.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-404">
+              <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -91,7 +75,7 @@
       <file leaf-file-name="ci_abm_paises.php" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/ci_abm_paises.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
+            <state relative-caret-position="298">
               <caret line="85" column="42" lean-forward="true" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
             </state>
           </provider>
@@ -117,8 +101,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57a07753-82c7-4470-bbb0-40baca3b4c4c/console.sql" />
         <option value="$PROJECT_DIR$/php/lib/bioquimicos.php" />
         <option value="$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php" />
-        <option value="$PROJECT_DIR$/php/operaciones/ABM_diagnosticos/ci_abm_diagnosticos.php" />
         <option value="$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php" />
+        <option value="$PROJECT_DIR$/php/operaciones/ABM_diagnosticos/ci_abm_diagnosticos.php" />
       </list>
     </option>
   </component>
@@ -243,7 +227,7 @@
       <workItem from="1531874989535" duration="9813000" />
       <workItem from="1532044445122" duration="2532000" />
       <workItem from="1532047458770" duration="3361000" />
-      <workItem from="1532050992173" duration="6596000" />
+      <workItem from="1532050992173" duration="6963000" />
     </task>
     <servers />
   </component>
@@ -253,7 +237,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33806000" />
+    <option name="totallyTimeSpent" value="34173000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,31 +399,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_diagnosticos/ci_abm_diagnosticos.php">
+    <entry file="file://$USER_HOME$/Desktop/ci_abm_paises.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="298">
+          <caret line="85" column="42" lean-forward="true" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="-404">
           <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/ci_abm_paises.php">
+    <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_diagnosticos/ci_abm_diagnosticos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="85" column="42" lean-forward="true" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+        <state relative-caret-position="550">
+          <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="70" lean-forward="true" selection-end-line="93" />
+        <state relative-caret-position="370">
+          <caret line="77" column="38" lean-forward="true" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
         </state>
       </provider>
     </entry>
