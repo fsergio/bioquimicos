@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="724ee4ab-e97f-4100-a5a3-a0c93e2efa9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/img/logo.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/lib/bioquimicos.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/lib/bioquimicos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,25 +29,34 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - bioquimicos@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - bioquimicos@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - bioquimicos@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="bioquimicos" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bioquimicos.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/lib/bioquimicos.php">
+    <leaf>
+      <file leaf-file-name="ci_abm_diagnosticos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_diagnosticos/ci_abm_diagnosticos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ci_abm_obras_sociales.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="76" selection-start-line="76" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="54">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -49,25 +64,36 @@
       <file leaf-file-name="ci_abm_especialidades.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="90">
+              <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57a07753-82c7-4470-bbb0-40baca3b4c4c/console.sql">
+      <file leaf-file-name="bioquimicos.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/lib/bioquimicos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+            <state relative-caret-position="432">
+              <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="57a07753-82c7-4470-bbb0-40baca3b4c4c.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/dataSources/57a07753-82c7-4470-bbb0-40baca3b4c4c.xml">
+      <file leaf-file-name="ci_abm_obras_sociales.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-321" />
+            <state relative-caret-position="316">
+              <caret line="70" lean-forward="true" selection-end-line="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ci_abm_paises.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/ci_abm_paises.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="730">
+              <caret line="85" column="42" lean-forward="true" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -87,11 +113,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php" />
-        <option value="$PROJECT_DIR$/php/lib/bioquimicos.php" />
-        <option value="$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php" />
         <option value="$PROJECT_DIR$/php/item_inicial.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/57a07753-82c7-4470-bbb0-40baca3b4c4c/console.sql" />
+        <option value="$PROJECT_DIR$/php/lib/bioquimicos.php" />
+        <option value="$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php" />
+        <option value="$PROJECT_DIR$/php/operaciones/ABM_diagnosticos/ci_abm_diagnosticos.php" />
+        <option value="$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php" />
       </list>
     </option>
   </component>
@@ -101,6 +128,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server id="b4343381-bb06-49c3-a89a-8430cc5d90f5" name="PHP 7.1" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\toba_2.6.3\proyectos\bioquimicos" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -125,24 +160,40 @@
             <path>
               <item name="bioquimicos" type="b2602c69:ProjectViewProjectNode" />
               <item name="bioquimicos" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="metadatos" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bioquimicos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bioquimicos" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="bioquimicos" type="b2602c69:ProjectViewProjectNode" />
               <item name="bioquimicos" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="extension_toba" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="bioquimicos" type="b2602c69:ProjectViewProjectNode" />
               <item name="bioquimicos" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="operaciones" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bioquimicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bioquimicos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="operaciones" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ABM_diagnosticos" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bioquimicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bioquimicos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="operaciones" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ABM_especialidades" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="bioquimicos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bioquimicos" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="operaciones" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ABM_obras_sociales" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -154,9 +205,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="last_opened_file_path" value="C:/xampp/php/ext/php_xdebug-2.6.0-7.1-vc14.dll" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -187,37 +240,54 @@
       <updated>1531709507813</updated>
       <workItem from="1531709509643" duration="241000" />
       <workItem from="1531785606815" duration="9204000" />
-      <workItem from="1531874989535" duration="6868000" />
+      <workItem from="1531874989535" duration="9813000" />
+      <workItem from="1532044445122" duration="2532000" />
+      <workItem from="1532047458770" duration="3361000" />
+      <workItem from="1532050992173" duration="6596000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unnamed - 2018.07.19 at 21h 11m 11s.xml">
+      <configuration name="Unnamed" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18372000" />
+    <option name="totallyTimeSpent" value="33806000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="951" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.14605543" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32923833" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" weight="0.18017058" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32923833" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32923833" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.122068234" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.18017058" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32923833" />
       <window_info id="Structure" order="1" sideWeight="0.5012285" side_tool="true" weight="0.122068234" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32923833" />
+      <window_info id="Favorites" order="2" sideWeight="0.5012285" side_tool="true" weight="0.122068234" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992629" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.24692875" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32923833" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +328,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/php/lib/bioquimicos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1491">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="89" lean-forward="true" selection-start-line="20" selection-start-column="89" selection-end-line="20" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -284,49 +375,10 @@
         <state relative-caret-position="-2394" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/ci_abm_paises.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/GESTION_SISTEMAS/tablasparaimportar/ci_abm_excepciones.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-126" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/lib/bioquimicos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="76" selection-start-line="76" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/servicios.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/logo.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/logo_grande.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/logo.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/logo_grande.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/toba.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/php/item_inicial.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -335,13 +387,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php">
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources/57a07753-82c7-4470-bbb0-40baca3b4c4c.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="42">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/xampp/php/tests/parseDir/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -352,9 +408,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources/57a07753-82c7-4470-bbb0-40baca3b4c4c.xml">
+    <entry file="file://$PROJECT_DIR$/php/lib/bioquimicos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-321" />
+        <state relative-caret-position="432">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_diagnosticos/ci_abm_diagnosticos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_especialidades/ci_abm_especialidades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="26" column="58" lean-forward="true" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ci_abm_paises.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="85" column="42" lean-forward="true" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/operaciones/ABM_obras_sociales/ci_abm_obras_sociales.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="70" lean-forward="true" selection-end-line="93" />
+        </state>
       </provider>
     </entry>
   </component>

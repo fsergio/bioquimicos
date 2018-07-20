@@ -27,5 +27,17 @@ class bioquimicos {
 
         return toba::db()->consultar($sql);
     }
+
+    function get_diagnosticos ($where=null) {
+        $where = isset($where) ? "WHERE $where" : '';
+
+        $sql = "  select id, 
+                  codigo,
+                  descripcion
+                  from negocio.diagnosticos
+                  $where order by 3";
+
+        return toba::db()->consultar($sql);
+    }
 }
 ?>
