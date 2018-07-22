@@ -1,5 +1,5 @@
 <?php
-class ci_abm_obras_sociales extends bioquimicos_ci {
+class ci_abm_diagnosticos extends bioquimicos_ci {
 
     protected $s__filtro;
 	//-----------------------------------------------------------------------------------
@@ -10,7 +10,7 @@ class ci_abm_obras_sociales extends bioquimicos_ci {
         if (isset($this->s__filtro)) {
             $filtro->set_datos($this->s__filtro);
         }
-    }
+	}
 
 	function evt__filtro__filtrar($datos) {
         $this->s__filtro = $datos;
@@ -18,7 +18,7 @@ class ci_abm_obras_sociales extends bioquimicos_ci {
 
 	function evt__filtro__cancelar() {
         unset($this->s__filtro);
-    }
+	}
 
 	//-----------------------------------------------------------------------------------
 	//---- cuadro -----------------------------------------------------------------------
@@ -27,16 +27,16 @@ class ci_abm_obras_sociales extends bioquimicos_ci {
 	function conf__cuadro(bioquimicos_ei_cuadro $cuadro) {
         if(isset($this->s__filtro)) {
             $where = $this->dep('filtro')->get_sql_where();
-            $datos=toba::consulta_php('bioquimicos')->get_obras_sociales($where);
+            $datos=toba::consulta_php('bioquimicos')->get_diagnosticos($where);
         } else {
-            $datos=toba::consulta_php('bioquimicos')->get_obras_sociales();
+            $datos=toba::consulta_php('bioquimicos')->get_diagnosticos();
         }
         $cuadro->set_datos($datos);
-    }
+	}
 
 	function evt__cuadro__seleccion($seleccion) {
         $this->dep('datos')->cargar($seleccion);
-    }
+	}
 
     function evt__cuadro__eliminar($seleccion) {
         $this->dep('datos')->cargar($seleccion);
@@ -54,10 +54,9 @@ class ci_abm_obras_sociales extends bioquimicos_ci {
         }
     }
 
-	function conf_evt__cuadro__seleccion(toba_evento_usuario $evento, $fila) {
+    function conf_evt__cuadro__seleccion(toba_evento_usuario $evento, $fila) {
 
-	}
-
+    }
 	//-----------------------------------------------------------------------------------
 	//---- formulario -------------------------------------------------------------------
 	//-----------------------------------------------------------------------------------
@@ -67,16 +66,17 @@ class ci_abm_obras_sociales extends bioquimicos_ci {
             $datos=$this->dep('datos')->get();
             $form->set_datos($datos);
         }
-    }
+	}
 
 	function evt__formulario__alta($datos) {
         $this->dep('datos')->set($datos);
         $this->dep('datos')->sincronizar();
         $this->dep('datos')->resetear();
-	}
 
-	function evt__formulario__baja() {
+    }
 
+	function evt__formulario__baja()
+	{
 	}
 
 	function evt__formulario__modificacion($datos) {
