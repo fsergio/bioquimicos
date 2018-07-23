@@ -43,10 +43,30 @@ class bioquimicos {
     function get_practicas ($where=null) {
         $where = isset($where) ? "WHERE $where" : '';
 
-        $sql = "select id, 
-                codigo, 
+        $sql = "SELECT id,
+                codigo,
                 descripcion
-                from negocio.practicas
+                FROM negocio.practicas
+                $where order by 3";
+
+        return toba::db()->consultar($sql);
+    }
+
+    function get_bioquimicos ($where=null) {
+        $where = isset($where) ? "WHERE $where" : '';
+
+        $sql = "SELECT b.id,
+                b.matricula, 
+                b.nombre_apellido, 
+                b.direccion, 
+                b.telefono, 
+                b.mail, 
+                b.id_especialidad, 
+                e.id, 
+                e.descripcion
+                FROM negocio.bioquimicos b 
+                inner join negocio.especialidades e 
+                on b.id_especialidad = e.id
                 $where order by 3";
 
         return toba::db()->consultar($sql);
