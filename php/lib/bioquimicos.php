@@ -71,5 +71,25 @@ class bioquimicos {
 
         return toba::db()->consultar($sql);
     }
+
+    function get_medicos_efectores ($where=null) {
+        $where = isset($where) ? "WHERE $where" : '';
+
+        $sql = "SELECT m.id, 
+                       m.matricula, 
+                       m.nombre_apellido, 
+                       m.direccion, 
+                       m.telefono, 
+                       m.mail, 
+                       m.id_especialidad, 
+                       e.id, 
+                       e.descripcion
+                       FROM negocio.medicos_efectores m 
+                       inner join negocio.especialidades e 
+                       on  m.id_especialidad = e.id
+                $where order by 3";
+
+        return toba::db()->consultar($sql);
+    }
 }
 ?>
