@@ -139,5 +139,18 @@ class bioquimicos {
 
         return toba::db()->consultar($sql);
     }
+
+    function get_orden_detalle ($where=null) {
+        $where = isset($where) ? "WHERE $where" : '';
+
+        $sql = "SELECT id, 
+                id_cabecera, 
+                id_practica, 
+                cantidad
+                FROM negocio.orden_detalle
+                $where";
+
+        return toba::db()->consultar($sql);
+    }
 }
 ?>
